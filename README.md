@@ -6,5 +6,7 @@ Based on learnings on following topics:
 - Angular Http best practices
 
 Please run the following commands:
+
 Angular Application: npm start
+
 Json Server: npm run jsonDB
