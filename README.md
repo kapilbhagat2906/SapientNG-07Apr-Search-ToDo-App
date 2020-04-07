@@ -7,6 +7,6 @@ Based on learnings on following topics:
 
 Please run the following commands:
 
-Angular Application: npm start
+- Angular Application: npm start
 
-Json Server: npm run jsonDB
+- Json Server: npm run jsonDB
