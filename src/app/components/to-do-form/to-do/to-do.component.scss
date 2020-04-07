@@ -1,0 +1,15 @@
+$base-selector: '.to-do';
+
+#{$base-selector} {
+    padding: 10px 0;
+    &_title {
+        width: 80%;
+        display: inline-block;
+    }
+
+    &_check {
+        width: 20%;
+        display: inline-block;
+        text-align: center;
+    }
+}

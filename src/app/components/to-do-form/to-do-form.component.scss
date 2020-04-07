@@ -1,0 +1,17 @@
+$base-selector: '.to-do-form';
+
+#{$base-selector} {
+    width: 50%;
+    min-width: 500px;
+    margin: auto;
+    border: 1px solid #d3d3d3;
+    padding: 30px;
+
+    &_inputs {
+        text-align: center;
+        padding: 20px;
+    }
+    &_list {
+        padding-top: 30px;
+    }
+}

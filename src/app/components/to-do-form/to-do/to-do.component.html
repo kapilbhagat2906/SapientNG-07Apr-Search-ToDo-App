@@ -1,0 +1,6 @@
+<div class="to-do">
+    <div class="to-do_title">{{toDo.title}}</div>
+    <div class="to-do_check">
+        <input type="checkbox" [(ngModel)]="toDo.completed" (change)="updateToDoHandler()">
+    </div>
+</div>

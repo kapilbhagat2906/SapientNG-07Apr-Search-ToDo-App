@@ -1,0 +1,17 @@
+<div class="to-do-form">
+    <div class="to-do-form_inputs">
+        <app-search (searchHandler)="searchHandler($event)"></app-search>
+    </div>
+    <div class="to-do-form_list">
+        <app-to-do-list [toDos]="toDoList" (updateToDoHandler)="updateToDoHandler($event)"></app-to-do-list>
+    </div>
+    <div class="to-do-form_inputs">
+        <input [(ngModel)]="toDoTitle" type="text" />
+        <button (click)="saveToDo()">Save ToDo</button>
+    </div>
+</div>
+<div *ngIf="messageService.messages">
+    <div *ngFor="let message of messageService.messages">
+        {{message}}
+    </div>
+</div>
